@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+.app-theme.light {
+  background: #f9f9f9;
+  color: #222;
+}
+
+/* Dark Theme */
+.app-theme.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+button {
+  margin: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* Light button */
+.app-theme.light button {
+  background: #e74c3c;
+  color: white;
+}
+
+/* Dark button */
+.app-theme.dark button {
+  background: #c0392b;
+  color: #fff;
+}

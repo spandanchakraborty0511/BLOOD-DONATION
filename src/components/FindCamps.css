@@ -1,0 +1,60 @@
+.find-camps {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--card-bg);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.find-camps h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.camp-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.camp-card {
+  background: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  transition: transform 0.2s ease-in-out, background 0.3s ease;
+}
+
+.camp-card:hover {
+  transform: translateY(-5px);
+}
+
+.camp-card h3 {
+  color: var(--card-text);
+  margin-bottom: 10px;
+}
+
+.camp-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.camp-card button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.camp-card button:hover {
+  background: #a30000;
+}
